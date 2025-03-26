@@ -5,7 +5,7 @@ It allows admins to **manage books** while providing public access for users to 
 
 ---
 
-## 🚀 **Features**
+##  **Features**
 ✅ **Admin authentication** (JWT-based login & signup)  
 ✅ **Add, update, and delete books** (Admin-only)  
 ✅ **View all books** (Public API)  
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💾 **Database Setup (MySQL)**
+##  **Database Setup (MySQL)**
 ### **4️⃣ Install MySQL & Configure Database**
 - Install MySQL Server & Workbench if not installed.
 - Create a database named **`library_db`** in MySQL.
@@ -232,7 +232,7 @@ If an invalid request is made, the API returns a structured JSON error message:
 
 ---
 
-## 🔄 **Token Management**
+##  **Token Management**
 ### **📌 Refresh Access Token**
 **Endpoint:**  
 ```
