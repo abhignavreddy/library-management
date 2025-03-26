@@ -1,4 +1,4 @@
-# 📚 **Library Management System (Django REST Framework)**
+# **Library Management System (Django REST Framework)**
 
 This is a **Library Management System** built using **Django** and **Django REST Framework (DRF)**.  
 It allows admins to **manage books** while providing public access for users to view available books.
@@ -64,7 +64,7 @@ python manage.py migrate
 
 ---
 
-## 🔑 **Admin Authentication**
+##  **Admin Authentication**
 ### **6️⃣ Create a Superuser (Admin)**
 ```sh
 python manage.py createsuperuser
@@ -80,9 +80,9 @@ Your API will be available at:
 
 ---
 
-# **🛠️ API Endpoints**
+# ** API Endpoints**
 
-## 🔐 **Admin Authentication (JWT-Based)**
+##  **Admin Authentication (JWT-Based)**
 
 ### **📌 Admin Signup**
 **Endpoint:**  
@@ -106,7 +106,7 @@ POST /api/admin/signup/
 
 ---
 
-### **📌 Admin Login**
+### ** Admin Login**
 **Endpoint:**  
 ```
 POST /api/admin/login/
@@ -132,7 +132,7 @@ Authorization: Bearer your_access_token
 
 ---
 
-## 📚 **Books API**
+##  **Books API**
 
 ### **📌 Get All Books (Public)**
 **Endpoint:**  
@@ -203,7 +203,7 @@ DELETE /api/books/{book_id}/
 
 ---
 
-# 📜 **API Documentation**
+#  **API Documentation**
 
 📌 **Swagger UI:**  
 [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
@@ -253,7 +253,7 @@ POST /api/admin/token/refresh/
 
 ---
 
-# 🔧 **Project Structure**
+#  **Project Structure**
 ```
 libraryManagement/
 │
